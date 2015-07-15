@@ -1,3 +1,3 @@
 # Quick Quotes
 
-Group project for Flatiron pre-college program.
+Group project for Flatiron Pre-college program.
