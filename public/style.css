@@ -1,3 +1,25 @@
-h1 {
+.text {
+   font-size: 100px;
+   font-family: 'Montserrat', sans-serif;: 'Slabo 27px', serif;
+   font-weight: bold;
+   text-align: center;
+   color: #E8F0FA;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;: 'Slabo 27px', serif;
+  color: #E8F0FA;
+}
+/* body {
+  background-color: 
+} */
+
+form {
   text-align: center;
+  font-size: 100px;
+}
+
+table {
+  font-family: 'Montserrat', sans-serif;: 'Slabo 27px', serif;
+  color: #E8F0FA;
 }

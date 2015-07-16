@@ -2,8 +2,33 @@
 <html>
   <head>
     <title> Quick Quotes </title>
-  </head>
+    <link rel = "stylesheet" type = "text/css" href = "../style.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  </head> 
+  
   <body>
-    <h1> Quick Quotes </h1>
+  <body background = "http://u.kanobu.ru/comments/images/92025b04-c980-46da-8859-66f64c997468.jpg">
+    <h1 class = "text"> Quick Quotes </h1>
+   
+    <form action = "/results" method = "post">
+    <select name="topics">
+      <option value = "Topic"> TOPIC </option>
+      <option value="Life">life</option>
+      <option value="Sad">sad</option>
+      <option value="Motivational">motivational</option>
+      <option value="Education">audi</option>
+      </select>
+    
+    <select name="people">
+      <option value = "people"> PEOPLE </option>
+      <option value="Albert Einstein">Albert Einstein</option>
+      <option value="John F. Kennedy"> John F. Kennedy</option>
+      <option value="Confucius">Confucius</option>
+      <option value="Mahatma Gandhi">Mahatma Gandhi</option>
+      </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+    
   </body>
 </html>
