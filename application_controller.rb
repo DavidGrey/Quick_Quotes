@@ -11,6 +11,7 @@ class MyApp < Sinatra::Base
   post '/results' do
     @topics = params[:topics]
     @people = params[:people]
+    @quote1 = Quotes.new()
     erb :results
   end
  

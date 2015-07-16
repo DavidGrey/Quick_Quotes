@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <title> Quick Quotes </title>
     <link rel = "stylesheet" type = "text/css" href = "../style.css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/aspneticons_v1.0_Nov2006/edit_16x16.gif">
   </head>
   
   <body background = "http://u.kanobu.ru/comments/images/92025b04-c980-46da-8859-66f64c997468.jpg">
@@ -17,8 +19,8 @@
         <th>Author</th> 
       </tr>
       <tr>
-        <td>Quote</td>
-        <td>Author</td>		
+        <td> <%=@quote1.quotes.keys[0] %> </td>
+        <td> <%=@quote1.author("If music be the food of love, play on.").capitalize%></td>		
       </tr>
       <tr>
         <td>Quote</td>
