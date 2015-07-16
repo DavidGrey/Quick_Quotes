@@ -22,4 +22,28 @@ form {
 table {
   font-family: 'Montserrat', sans-serif;: 'Slabo 27px', serif;
   color: #E8F0FA;
+  border: 1px solid #E8F0FA;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 30px;
+  font-size: 30px;
+}
+td {
+  padding: 15px;
+}
+
+h3 {
+  position: absolute; 
+  bottom: 5px; 
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;: 'Slabo 27px', serif;
+}
+
+.drop {
+  font-family: 'Montserrat', sans-serif;: 'Slabo 27px', serif;
+  width: 150px;
+  font-size: 150px;
 }
