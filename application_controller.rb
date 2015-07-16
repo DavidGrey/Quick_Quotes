@@ -4,7 +4,7 @@ require './models/model.rb'
 class MyApp < Sinatra::Base
 
   get '/' do
-    erb :index
+    erb :imagelink
   end
  
 end
